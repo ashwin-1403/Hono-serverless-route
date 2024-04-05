@@ -1,0 +1,23 @@
+name = "my-app"
+compatibility_date = "2023-12-01"
+
+  [vars]
+  DATABASE_URL = ""
+
+  DIRECT_DATABASE_URL=""
+
+  JWT_SECRET = ""
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# database_name = "my-database"
+# binding = "DB"
+# database_id = ""
+node_compat = true
